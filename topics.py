@@ -79,12 +79,12 @@
 
 # QUES-7: CALCULATE THE SUM OF THE DIGITS.
 # ANS-7 ->
-num = int(input("Enter a number : "))
+# num = int(input("Enter a number : "))
 
-def sum_of_digits(n):
-    total = 0
-    while n != 0:
-        total += n % 10
-        n //= 10
-    return total
-print("Sum = ", sum_of_digits(num))
+# def sum_of_digits(n):
+#     total = 0
+#     while n != 0:
+#         total += n % 10
+#         n //= 10
+#     return total
+# print("Sum = ", sum_of_digits(num))
